@@ -1,0 +1,334 @@
+h1 {
+  text-align: center;
+}
+ img {
+     width: 100%;
+ }
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    width: 25%;
+    
+  }
+  
+  .column > div {
+    margin: 2px;
+  }
+
+  .image1-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 70px;
+   visibility: hidden;
+   top: 100px;
+  }
+
+  .image1:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image1:hover img {
+    opacity: 0.3;
+  }
+
+  .image1:hover .image1-title {
+    visibility: visible;
+  }
+
+  .image5-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 400px;
+  }
+
+  .image5:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image5:hover img {
+    opacity: 0.3;
+  }
+
+  .image5:hover .image5-title {
+    visibility: visible;
+  }
+
+  .image8-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 70px;
+   visibility: hidden;
+   top: 800px;
+  }
+
+  .image8:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image8:hover img {
+    opacity: 0.3;
+  }
+
+  .image8:hover .image8-title {
+    visibility: visible;
+  }
+
+  .image6-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 700px;
+   left: 350px;
+  }
+
+  .image6:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image6:hover img {
+    opacity: 0.3;
+  }
+
+  .image6:hover .image6-title {
+    visibility: visible;
+  }
+
+  .image2-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 150px;
+   left: 350px;
+  }
+
+  .image2:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image2:hover img {
+    opacity: 0.3;
+  }
+
+  .image2:hover .image2-title {
+    visibility: visible;
+  }
+
+  .image3-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 150px;
+   left: 700px;
+  }
+
+  .image3:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image3:hover img {
+    opacity: 0.3;
+  }
+
+  .image3:hover .image3-title {
+    visibility: visible;
+  }
+
+  .image7-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 400px;
+   left: 700px;
+  }
+
+  .image7:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image7:hover img {
+    opacity: 0.3;
+  }
+
+  .image7:hover .image7-title {
+    visibility: visible;
+  }
+
+  .image9-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 900px;
+   left: 700px;
+  }
+
+  .image9:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image9:hover img {
+    opacity: 0.3;
+  }
+
+  .image9:hover .image9-title {
+    visibility: visible;
+  }
+
+  .image4-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 500px;
+   right: 150px
+  }
+
+  .image4:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image4:hover img {
+    opacity: 0.3;
+  }
+
+  .image4:hover .image4-title {
+    visibility: visible;
+  }
+
+  .image10-title {
+    position: absolute;
+    bottom: 25px;
+    color: #fff;
+    font-size: 50px;
+   visibility: hidden;
+   top: 900px;
+   right: 150px
+  }
+
+  .image10:hover {
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .image10:hover img {
+    opacity: 0.3;
+  }
+
+  .image10:hover .image10-title {
+    visibility: visible;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
